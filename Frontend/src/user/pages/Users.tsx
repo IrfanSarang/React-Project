@@ -9,7 +9,7 @@ const Users = () => {
       places: 3
     }]
 
-    return <UserList items={USERS}/>;
+    return <UserList items={USERS} />;
 }
 
 export default Users;

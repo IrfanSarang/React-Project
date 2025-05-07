@@ -23,7 +23,7 @@ const UserList: React.FC<UserListProps> = props => {
     );
   }
 
-  return <ul className='user-list'>
+  return <ul className='users-list'>
     {props.items.map((user) =>{
       return(
      <UserItems key={user.id} id={user.id} image={user.image} name={user.name} placeCount={user.places}/>)
