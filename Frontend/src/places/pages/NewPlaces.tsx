@@ -1,11 +1,11 @@
 import React from 'react'
+import './NewPlaces.css'
+import Input from '../../shared/components/FormElements/Input'
 
 const NewPlaces: React.FC = () => {
-  return (
-    <div>
-      <h1>Hello New Place!!</h1>
-    </div>
-  )
+  return <form className='place-form'>
+    <Input type="text" label="Title" validators={[]} errorText="Please enter a valid text" />
+  </form>
 }
 
 export default NewPlaces;
